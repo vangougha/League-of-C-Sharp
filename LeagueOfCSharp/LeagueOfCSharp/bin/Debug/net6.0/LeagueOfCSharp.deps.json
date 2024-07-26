@@ -1,0 +1,91 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "LeagueOfCSharp/1.0.0": {
+        "dependencies": {
+          "Camille.RiotGames": "3.0.0-nightly-2024-07-25-a17f385bca"
+        },
+        "runtime": {
+          "LeagueOfCSharp.dll": {}
+        }
+      },
+      "Camille.Core/3.0.0-nightly-2024-07-25-a17f385bca": {
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2024-07-25-a17f385bca": {
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2024-07-25-a17f385bca": {
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2024-07-25-a17f385bca",
+          "Camille.Enums": "3.0.0-nightly-2024-07-25-a17f385bca",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "MingweiSamuel.TokenBucket/1.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LeagueOfCSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Camille.Core/3.0.0-nightly-2024-07-25-a17f385bca": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bEuA8rApE4m/o3xL1EgytS5KjxKKkkyb3J4Sw5/pIpllMCWntUqvRehj08DKNXJMUyC+q7yiWpc+bxtgSqhucA==",
+      "path": "camille.core/3.0.0-nightly-2024-07-25-a17f385bca",
+      "hashPath": "camille.core.3.0.0-nightly-2024-07-25-a17f385bca.nupkg.sha512"
+    },
+    "Camille.Enums/3.0.0-nightly-2024-07-25-a17f385bca": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xxbjrhN6ii7j7Yc+u+JytPqDrBZ99sOfw4BtEf1LJtJO/+/sJzunkBgGMAiUOli2PbDIkw3YVkFmd5M+YtMxzA==",
+      "path": "camille.enums/3.0.0-nightly-2024-07-25-a17f385bca",
+      "hashPath": "camille.enums.3.0.0-nightly-2024-07-25-a17f385bca.nupkg.sha512"
+    },
+    "Camille.RiotGames/3.0.0-nightly-2024-07-25-a17f385bca": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ML+ScigNUnigeh5JyRtTp4yJUElIYKGOtarhz8g8yrbPSG5tzA7pI/q92LcMqYjDlLtxiLxyHkWwngZdRHi45A==",
+      "path": "camille.riotgames/3.0.0-nightly-2024-07-25-a17f385bca",
+      "hashPath": "camille.riotgames.3.0.0-nightly-2024-07-25-a17f385bca.nupkg.sha512"
+    },
+    "MingweiSamuel.TokenBucket/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gD+DrZw+HdKQ5D4NTYSaU6Er58nvClYJIoCOn/+gpKzlA2YBaaDI1xyQC4u1kaQ5b3/Onitif1sBgRfqpbWHTQ==",
+      "path": "mingweisamuel.tokenbucket/1.0.2",
+      "hashPath": "mingweisamuel.tokenbucket.1.0.2.nupkg.sha512"
+    }
+  }
+}

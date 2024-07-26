@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "DJGB0TFDW6KjBTVI2MyteKLzCkDL+6jvBiZ+qi/gm936pevuO43UEMFpUTJnUZTKG/a4U5bxmO0q0l1cY6nR9w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Can\\Desktop\\League-of-C-Sharp\\LeagueOfCSharp\\LeagueOfCSharp\\LeagueOfCSharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Can\\.nuget\\packages\\camille.core\\3.0.0-nightly-2024-07-25-a17f385bca\\camille.core.3.0.0-nightly-2024-07-25-a17f385bca.nupkg.sha512",
+    "C:\\Users\\Can\\.nuget\\packages\\camille.enums\\3.0.0-nightly-2024-07-25-a17f385bca\\camille.enums.3.0.0-nightly-2024-07-25-a17f385bca.nupkg.sha512",
+    "C:\\Users\\Can\\.nuget\\packages\\camille.riotgames\\3.0.0-nightly-2024-07-25-a17f385bca\\camille.riotgames.3.0.0-nightly-2024-07-25-a17f385bca.nupkg.sha512",
+    "C:\\Users\\Can\\.nuget\\packages\\mingweisamuel.tokenbucket\\1.0.2\\mingweisamuel.tokenbucket.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

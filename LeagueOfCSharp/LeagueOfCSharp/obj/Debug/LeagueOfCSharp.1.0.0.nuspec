@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>LeagueOfCSharp</id>
+    <version>1.0.0</version>
+    <authors>LeagueOfCSharp</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Camille.RiotGames" version="3.0.0-nightly-2024-07-25-a17f385bca" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Can\Desktop\Kod\LeagueOfCSharp\LeagueOfCSharp\bin\Debug\net6.0\LeagueOfCSharp.runtimeconfig.json" target="lib\net6.0\LeagueOfCSharp.runtimeconfig.json" />
+    <file src="C:\Users\Can\Desktop\Kod\LeagueOfCSharp\LeagueOfCSharp\bin\Debug\net6.0\LeagueOfCSharp.dll" target="lib\net6.0\LeagueOfCSharp.dll" />
+  </files>
+</package>
