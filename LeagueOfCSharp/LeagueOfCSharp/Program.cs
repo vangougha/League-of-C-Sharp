@@ -3,6 +3,7 @@ using Camille.Enums;
 using Camille.RiotGames;
 using Camille.RiotGames.SummonerV4;
 using Camille.RiotGames.LeagueV4;
+using System.Net.NetworkInformation;
 
 
 namespace LeagueOfCSharp
@@ -16,7 +17,7 @@ namespace LeagueOfCSharp
             // Assuming both API calls return types that share a common interface or base class
             var summoners = new[]
             {
-                riotApi.AccountV1().GetByRiotId(RegionalRoute.EUROPE, "communistcomrade", "CCCP"),
+                riotApi.AccountV1().GetByRiotId(RegionalRoute.EUROPE,"Good King Garen","Garen")
             };
             foreach (var summoner in summoners)
             {
